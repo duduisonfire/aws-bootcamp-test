@@ -1,6 +1,0 @@
-FROM mcr.microsoft.com/dotnet/sdk:7.0 as build-env
-WORKDIR /api
-COPY . .
-
-EXPOSE 5001
-CMD ["./RunesWebScraping"]
