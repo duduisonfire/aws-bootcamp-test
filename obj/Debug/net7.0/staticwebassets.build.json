@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "0TBBOkU5Z3EJo49xdcJdXwKGTNWcpxWrEGnYWbFDxcg=",
+  "Source": "aws-bootcamp-test",
+  "BasePath": "_content/aws-bootcamp-test",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
