@@ -44,7 +44,7 @@ jobs:
       with:
         local: /home/runner/work/aws-bootcamp-test/aws-bootcamp-test/bin/Debug/net7.0/linux-x64/publish/
         concurrency: 10
-        remote: /aws
+        remote: /api
         host: ${{ secrets.REMOTE_HOST }}
         username: ${{ secrets.REMOTE_USER }}
         passphrase: ${{ secrets.PASSPHRASE }}
