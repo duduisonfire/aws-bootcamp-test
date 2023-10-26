@@ -53,7 +53,7 @@ jobs:
     - name: Start API
       uses: garygrossgarten/github-action-ssh@v0.6.3
       with:
-        command: cd /aws && chmod +x api && docker compose build && docker compose create && docker compose start
+        command: cd /api && chmod +x API && docker compose build && docker compose create && docker compose start
         host: ${{ secrets.REMOTE_HOST }}
         username: ${{ secrets.REMOTE_USER }}
         passphrase: ${{ secrets.PASSPHRASE }}
