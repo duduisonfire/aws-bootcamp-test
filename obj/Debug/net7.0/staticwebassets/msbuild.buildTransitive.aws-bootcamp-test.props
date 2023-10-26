@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="../buildMultiTargeting/aws-bootcamp-test.props" />
-</Project>
